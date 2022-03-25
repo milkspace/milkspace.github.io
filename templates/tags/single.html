@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>
+    <span class="section_title">Список постов с тегом "{{ term.name }}"</span>
+</h1>
+
+<ul>
+    {% for post in term.pages%}
+    <li type="square">
+        {{ post.date}} | <a href="{{ post.permalink }}">{{ post.title }}</a>
+        |
+        {% for tag in post.taxonomies["tags"] -%}
+        <a href="{%- set _tag = get_taxonomy_url(kind="tags", name=tag) -%}{{ _tag }}">{{ tag }}</a>
+        {% endfor %}
+    </li>
+    {% endfor %}
+</ul>
+
+{% endblock content %}

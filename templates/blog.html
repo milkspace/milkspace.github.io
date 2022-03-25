@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 class="title">
+<h1 class="section_title">
   {{ section.title }}
 </h1>
 
@@ -10,13 +10,20 @@
 <ul>
   {% for page in section.pages %}
   <li type="square">
-    {{ page.date }} |
+    📅 {{ page.date }} |
     <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
     {% if page.updated %}
-    (обновлено {{ page.updated }})
+    <br>✏️ {{ page.updated }}
     {% endif %}
-    <!-- | {{ page.updated }} -->
+    {% if not page.updated%}
+    <br>
+    {% endif %}
+    {% if page.taxonomies.tags %}
+    🏷️ {{ page.taxonomies.tags | join(sep=", ")}}
+    {% endif %}
+    
   </li>
+  <br>
   {% endfor %}
 </ul>
 {% endblock content %}

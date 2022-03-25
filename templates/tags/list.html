@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>
+    <span class="section_title">Список тегов</span>
+</h1>
+
+<ul>
+    {% for term in terms %}
+    <li type="square">
+        [{{ term.pages | length }} пост {{ term.pages | length | pluralize}}]
+        <a href="{{ get_taxonomy_url(kind="tags", name=term.name) }}">{{ term.name }}</a>
+    </li>
+    {% endfor %}
+</ul>
+
+{% endblock content %}
