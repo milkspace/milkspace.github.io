@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  Добро пожаловать на мой сайт
+</h1>
+<!-- <p>Блог -> <a href="{{ config.base_url }}/blog/"> клац </a></p> -->
+<!-- <a href="https://github.com/n2822/mysite/issues/1#issue-1179351808">Comments</a> -->
+
+{{ section.content | safe }}
+
+📧 Почта:  <a href="mailto:7jre6rd05@mozmail.com">7jre6rd05@mozmail.com</a>
+<br>
+☁️ Комментарии на GitHub: <a target=”_blank” href="https://github.com/milkspace/mysite/issues/1">https://github.com/milkspace/mysite/issues/1 </a>
+<br>
+📁 Репозиторий с сайтом: <a target=”_blank” href="https://github.com/milkspace/mysite">https://github.com/milkspace/mysite </a>
+
+{% endblock content %}

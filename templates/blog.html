@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  {{ section.title }}
+</h1>
+
+{{ section.content | safe}}
+
+<ul>
+  {% for page in section.pages %}
+  <li type="square">
+    {{ page.date }} |
+    <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+    {% if page.updated %}
+    (обновлено {{ page.updated }})
+    {% endif %}
+    <!-- | {{ page.updated }} -->
+  </li>
+  {% endfor %}
+</ul>
+{% endblock content %}

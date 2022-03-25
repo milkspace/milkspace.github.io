@@ -1,0 +1,25 @@
+@import "nord.scss";
+
+$font-stack: Helvetica, sans-serif;
+
+body {
+  background-color: $nord0;
+  color: $nord8;
+  font: 100% $font-stack;
+  max-width: 50rem;
+  border-style: dashed;
+  border-color: $nord1;
+  padding: 0.3rem;
+  margin: 0 auto;
+
+}
+
+:any-link {
+  color: $nord12;
+}
+
+.menu {
+  background-color: $nord2;
+  border-style: dashed;
+  border-color: $nord3;
+}

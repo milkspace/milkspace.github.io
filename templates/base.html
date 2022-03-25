@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      {% if page %}
+      {{ page.title }}
+      {% elif section %}
+      {{ section.title}}
+      {% else %}
+      title not found
+      {% endif %}
+    </title>
+    <link rel="icon" type="image/x-icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/rocket_1f680.png">
+    <link rel="stylesheet" href="{{ get_url(path='style.css') }}">
+</head>
+</head>
+
+<body>
+  
+  <div class="menu">
+    <a href="{{ config.base_url }}"> 🥛 </a>
+    |
+    <a href="{{ config.base_url }}/blog"> блог </a>
+    |
+    <a href="{{ config.base_url }}/projects"> проекты </a>
+    |
+    <a href="{{ config.base_url }}/games"> игры </a> 
+    |
+     <a href="{{ config.base_url }}/aboutme"> обо мне </a>
+  </div>
+  
+  <section class="section">
+    <div class="container">
+      {% block content %} {% endblock %}
+    </div>
+  </section>
+</body>
+
+</html>
