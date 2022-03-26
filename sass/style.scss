@@ -44,12 +44,14 @@ a:hover {
   border-color: $nord3;
   color: $nord7;
   display: block;
+  max-width: fit-content;
 }
 
 .section_title {
   text-decoration: underline;
   color: $nord7;
   display: block;
+  max-width: fit-content;
 }
 
 .page_subtitle {
@@ -60,6 +62,7 @@ a:hover {
   border-color: $nord1;
   color: $nord15;
   display: block;
+  max-width: fit-content;
 }
 
 .tags {
@@ -70,6 +73,7 @@ a:hover {
   border-color: $nord1;
   color: $nord15;
   display: block;
+  max-width: fit-content;
 }
 
 blockquote {
@@ -121,6 +125,7 @@ p code {
   border: 0.1rem solid $nord4;
   color: $nord6;
   display: block;
+  max-width: fit-content;
 }
 
 pre {
