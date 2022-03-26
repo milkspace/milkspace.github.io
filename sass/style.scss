@@ -43,11 +43,13 @@ a:hover {
   padding-right: 0.2rem;
   border-color: $nord3;
   color: $nord7;
+  display: block;
 }
 
 .section_title {
   text-decoration: underline;
   color: $nord7;
+  display: block;
 }
 
 .page_subtitle {
@@ -57,6 +59,7 @@ a:hover {
   padding-right: 0.2rem;
   border-color: $nord1;
   color: $nord15;
+  display: block;
 }
 
 .tags {
@@ -66,6 +69,7 @@ a:hover {
   padding-right: 0.2rem;
   border-color: $nord1;
   color: $nord15;
+  display: block;
 }
 
 blockquote {
@@ -116,10 +120,12 @@ p code {
   padding: 0.2rem;
   border: 0.1rem solid $nord4;
   color: $nord6;
+  display: block;
 }
 
 pre {
   font-size: 1rem;
   padding: 0.5rem;
   border: 0.1rem solid $nord3;
+  overflow: auto;
 }
