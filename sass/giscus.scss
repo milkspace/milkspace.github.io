@@ -1,0 +1,39 @@
+@import "nord.scss";
+
+$font-stack: Ubuntu, sans-serif;
+
+body {
+    font: 100% $font-stack;
+    color: $nord3;
+    
+}
+
+.rounded-md, .gsc-comment-content, .gsc-comment-reactions, .text, .gsc-comment-box, .gsc-header {
+    color: $nord4;
+}
+
+:any-link {
+    color: $nord12;
+    text-decoration: none !important;
+}
+
+:any-link:hover {
+    color: $nord14;
+    text-decoration: none !important;
+}
+
+.gsc-reactions-menu, .gsc-direct-reaction-buttons, .gsc-upvote-button, .gsc-social-reaction-summary-item, .gsc-comment-reactions {
+    color: $nord13;
+}
+
+.gsc-reactions-popover {
+    background-color: $nord1;
+}
+
+.capitalize {
+    color: $nord15;
+}
+
+// .gsc-comment-content, .gsc-comment-reactions, .text {
+//     color: $nord4;
+// }

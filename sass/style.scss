@@ -3,8 +3,11 @@
 // $font-stack: Helvetica, sans-serif;
 $font-stack: Ubuntu, sans-serif;
 
-
 body {
+  background-color: $nord0;
+}
+
+.body {
   background-color: $nord0;
   color: $nord8;
   font: 100% $font-stack;
@@ -15,6 +18,33 @@ body {
   margin: 0 auto;
   overflow-wrap: break-word;
   padding-bottom: 1rem;
+}
+
+.giscus {
+  background-color: $nord0;
+  color: $nord8;
+  font: 100% $font-stack;
+  max-width: 50rem;
+  border-style: dashed;
+  border-color: $nord1;
+  padding: 0.3rem;
+  margin: 0 auto;
+  overflow-wrap: break-word;
+  // padding-bottom: 1rem;
+}
+
+.giscus-frame {
+  
+}
+
+ul {
+  padding-left: 0.8rem;
+  list-style-type: none;
+}
+
+li {
+  border-left: 0.2rem solid $nord1;
+  padding-left: 0.2rem;
 }
 
 .container {
