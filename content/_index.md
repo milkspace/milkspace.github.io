@@ -4,8 +4,6 @@ title = "Полетели"
 
 👋 ну привет
 
-📧 *Почта*:  [7jre6rd05@mozmail.com](mailto:7jre6rd05@mozmail.com)
-<br>
-☁️ *Комментарии на GitHub*:  [https://github.com/milkspace/mysite/discussions](https://github.com/milkspace/mysite/discussions)
-<br>
-📁 *Репозиторий с сайтом*:  [https://github.com/milkspace/mysite](https://github.com/milkspace/mysite)
+📧 *Почта*:  [7jre6rd05@mozmail.com](mailto:7jre6rd05@mozmail.com)      
+☁️ *Комментарии на GitHub*: <a href="https://github.com/milkspace/mysite/discussions" target="_blank">https://github.com/milkspace/mysite/discussions</a>       
+📁 *Репозиторий с сайтом*: <a href="https://github.com/milkspace/mysite" target="_blank">https://github.com/milkspace/mysite</a>         
