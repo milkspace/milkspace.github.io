@@ -54,6 +54,10 @@ a:hover {
   max-width: fit-content;
 }
 
+.post-description {
+  color: $nord15;
+}
+
 .page_subtitle {
   border-style: dashed;
   padding: 0.1rem;
@@ -74,6 +78,23 @@ a:hover {
   color: $nord15;
   display: block;
   max-width: fit-content;
+}
+
+.toc {
+  border-style: dashed;
+  padding: 0.3rem;
+  border-color: $nord1;
+  color: $nord13;
+  display: block;
+  max-width: fit-content;
+}
+
+#toc-content {
+	display: none;
+}
+
+#toc-content:target {
+	display: block;
 }
 
 blockquote {
@@ -124,7 +145,7 @@ p code {
   padding: 0.2rem;
   border: 0.1rem solid $nord4;
   color: $nord6;
-  display: block;
+  display: inline-block;
   max-width: fit-content;
 }
 

@@ -1,23 +1,6 @@
 {% extends "base.html" %}
 
-<!-- {% if page.toc %}
-    <ul>
-    {% for h1 in page.toc %}
-        <li>
-            <a href="{{ h1.permalink | safe }}">{{ h1.title }}</a>
-            {% if h1.children %}
-                <ul>
-                    {% for h2 in h1.children %}
-                        <li>
-                            <a href="{{ h2.permalink | safe }}">{{ h2.title }}</a>
-                        </li>
-                    {% endfor %}
-                </ul>
-            {% endif %}
-        </li>
-    {% endfor %}
-    </ul>
-{% endif %} -->
+
 
 {% block content %}
 <h1>
@@ -31,20 +14,42 @@
     <strong> ✏️ {{ page.updated }}</strong>
     {% endif %}
 </span>
+
+{% if page.toc %}
+    <br>   
+    <div class="toc">
+        <a href="#toc-content" id="toc">[Содержание]</span>
+        <div id="toc-content">
+            <ul>
+            {% for h1 in page.toc %}
+                <li>
+                    <a href="{{ h1.permalink | safe }}">{{ h1.title }}</a>
+                    {% if h1.children %}
+                        <ul>
+                            {% for h2 in h1.children %}
+                                <li>
+                                    <a href="{{ h2.permalink | safe }}">{{ h2.title }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </li>
+            {% endfor %}
+            </ul>
+            <a href="#">[Скрыть]</a>
+        </div>  
+    </div>
+{% endif %}
+
+{{ page.content | safe }}
+
 <br>
 {% if page.taxonomies.tags %}
-<span class="tags">🏷️ 
+<span class="tags"> 
     {% for tag in page.taxonomies.tags %}
-    <a href="{{ get_taxonomy_url(kind="tags", name=tag) | safe }}">{{ tag }}</a>
+    🏷️ <a href="{{ get_taxonomy_url(kind="tags", name=tag) | safe }}">{{ tag }}</a>
     {% endfor %}
 </span>
 {% endif %}
-{{ page.content | safe }}
-
-<!-- {% if page.tags %}
-<span class="tags"> 🏷️ {{page.tags }} </span>
-{% endif %} -->
-
-
 
 {% endblock content %}
