@@ -12,7 +12,7 @@
         {{ post.date}} | <a href="{{ post.permalink }}">{{ post.title }}</a>
         |
         {% for tag in post.taxonomies["tags"] -%}
-        <a href="{%- set _tag = get_taxonomy_url(kind="tags", name=tag) -%}{{ _tag }}">{{ tag }}</a>
+        🏷️ <a class="tag" href="{%- set _tag = get_taxonomy_url(kind="tags", name=tag) -%}{{ _tag }}">{{ tag }}</a>
         {% endfor %}
     </li>
     {% endfor %}

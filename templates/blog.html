@@ -7,9 +7,9 @@
 
 {{ section.content | safe}}
 
-<ul>
+<ul class="blog_ul">
   {% for page in section.pages %}
-  <li type="none">
+  <li type="none" class="blog_li">
     📅 {{ page.date }} |
     <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
     {% if page.description%}
@@ -27,7 +27,7 @@
     {% if page.taxonomies.tags %}
      
     {% for tag in page.taxonomies.tags%}
-    🏷️ <a href="{{ get_taxonomy_url(kind="tags", name=tag) }}">{{ tag }}</a>
+    🏷️ <a class="tag" href="{{ get_taxonomy_url(kind="tags", name=tag) }}">{{ tag }}</a>
     
     {% endfor %}
     <!-- 🏷️ {{ page.taxonomies.tags | join(sep=", ")}} -->

@@ -8,12 +8,12 @@ body {
 }
 
 .body {
-  background-color: $nord0;
+  background-color: $nord1;
   color: $nord8;
   font: 100% $font-stack;
   max-width: 50rem;
   border-style: dashed;
-  border-color: $nord1;
+  border-color: $nord2;
   padding: 0.3rem;
   margin: 0 auto;
   overflow-wrap: break-word;
@@ -21,12 +21,12 @@ body {
 }
 
 .giscus {
-  background-color: $nord0;
+  background-color: $nord1;
   color: $nord8;
   font: 100% $font-stack;
   max-width: 50rem;
   border-style: dashed;
-  border-color: $nord1;
+  border-color: $nord2;
   padding: 0.3rem;
   margin: 0 auto;
   overflow-wrap: break-word;
@@ -37,14 +37,16 @@ body {
   
 // }
 
-ul {
+.blog_ul {
   padding-left: 0.8rem;
   list-style-type: none;
 }
 
-li {
-  border-left: 0.2rem solid $nord1;
+.blog_li {
+  border-left: 0.2rem solid $nord3;
   padding-left: 0.2rem;
+  list-style-type: none;
+  background-color: $nord0;
 }
 
 .container {
@@ -56,12 +58,12 @@ li {
   color: $nord12;
 }
 
-a:hover {
+:any-link:hover {
   color: $nord14;
 }
 
 .menu {
-  background-color: $nord2;
+  background-color: $nord0;
   border-style: dashed;
   border-color: $nord3;
 }
@@ -93,7 +95,7 @@ a:hover {
   padding: 0.1rem;
   padding-left: 0.2rem;
   padding-right: 0.2rem;
-  border-color: $nord1;
+  border-color: $nord3;
   color: $nord15;
   display: block;
   max-width: fit-content;
@@ -104,7 +106,7 @@ a:hover {
   padding: 0.1rem;
   padding-left: 0.2rem;
   padding-right: 0.2rem;
-  border-color: $nord1;
+  border-color: $nord3;
   color: $nord15;
   display: block;
   max-width: fit-content;
@@ -113,10 +115,14 @@ a:hover {
 .toc {
   border-style: dashed;
   padding: 0.3rem;
-  border-color: $nord1;
+  border-color: $nord3;
   color: $nord13;
   display: block;
   max-width: fit-content;
+}
+
+.toc a {
+  color: $nord13;
 }
 
 #toc-content {
@@ -184,4 +190,12 @@ pre {
   padding: 0.5rem;
   border: 0.1rem solid $nord3;
   overflow: auto;
+}
+
+img{
+  max-width: 100%;
+}
+
+.tag {
+  color: $nord13;
 }
