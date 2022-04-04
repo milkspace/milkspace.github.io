@@ -35,10 +35,20 @@
                     {% endif %}
                 </li>
             {% endfor %}
+            {%if page.extra.comments %}
+                <li>
+                    <a href="#comments">Комментарии</a>
+                </li>
+            {% endif %}
             </ul>
             <a href="#">[Скрыть]</a>
         </div>  
     </div>
+{% elif page.extra.comments %}
+<br>
+<div class="toc">
+    <a href="#comments">[Комментарии]</a>
+</div>
 {% endif %}
 
 {{ page.content | safe }}
@@ -51,5 +61,8 @@
     {% endfor %}
 </span>
 {% endif %}
+
+<br>
+<a href="#" id="up_button">[Вернуться вверх]</a>
 
 {% endblock content %}

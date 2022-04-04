@@ -25,7 +25,8 @@
 <!-- MENU -->
 
 <body>
-  <div class="body">
+  <div class="content">
+
     <div class="menu">
       <a href="{{ config.base_url }}"> 🥛 </a>
       |
@@ -49,25 +50,23 @@
   </div>
 
   {% if page.extra.comments or section.extra.comments %}
-  <br>
-  <noscript>Your browser does not support JavaScript!</noscript>
-  <script src="https://giscus.app/client.js"
-   data-repo="milkspace/mysite"
-    data-repo-id="R_kgDOHD73WQ"
-    data-category="Announcements" 
-    data-category-id="DIC_kwDOHD73Wc4COWgm" 
-    data-mapping="title"
-    data-reactions-enabled="1" 
-    data-emit-metadata="0" 
-    data-input-position="top" 
-    data-theme="{{ get_url(path='giscus.css') }}" 
-    data-lang="ru"
-    crossorigin="anonymous" async>
-  </script>
-  <noscript> Комментари: <a href="https://github.com/milkspace/mysite/discussions">https://github.com/milkspace/mysite/discussions</a></noscript>
-  
+  <h1 id="comments"></h1>
+  <noscript> Комментари: <a
+      href="https://github.com/milkspace/mysite/discussions">https://github.com/milkspace/mysite/discussions</a></noscript>
+  <script src="https://giscus.app/client.js" data-repo="milkspace/mysite" data-repo-id="R_kgDOHD73WQ"
+    data-category="Announcements" data-category-id="DIC_kwDOHD73Wc4COWgm" data-mapping="title"
+    data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top"
+    data-theme="{{ get_url(path='giscus.css') }}" data-lang="ru" crossorigin="anonymous" async>
+    </script>
+
   {% endif %}
-  
+
+
+  <div class="footer">
+    <span> Почта: <a href="mailto:7jre6rd05@mozmail.com">7jre6rd05@mozmail.com</a> </span>
+    <br>
+    <span> Репозиторий с сайтом: <a href="https://github.com/milkspace/mysite" target="_blank">https://github.com/milkspace/mysite</a></span>
+  </div>
 </body>
 
 </html>
