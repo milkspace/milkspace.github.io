@@ -1,5 +1,5 @@
 +++
-template = "aboutme.html"
+template = "mdcontentonly.html"
 title = "обо мне"
 +++
 

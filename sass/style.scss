@@ -20,6 +20,21 @@ body {
   padding-bottom: 1rem;
 }
 
+#fediverse_div {
+  max-width: 50rem;
+  max-height: 32rem;
+  overflow: auto;
+  padding: 0.2rem;
+}
+
+.fediverse_post {
+  border-style: dashed;
+  border-color: $nord3;
+  background-color: $nord2;
+  padding: 0.1rem;
+  margin-top: 0.3rem;
+}
+
 .giscus {
   background-color: $nord1;
   color: $nord8;
@@ -216,10 +231,15 @@ img{
   max-width: 100%;
 }
 
-.tag {
+.tag, summary {
   color: $nord13;
 }
 
 #up_button {
   color: $nord15;
+}
+
+mark {
+  color: $nord4 !important;
+  background-color: $nord11 !important;
 }

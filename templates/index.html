@@ -4,9 +4,63 @@
 <h1 class="section_title">
   Добро пожаловать на мой сайт
 </h1>
-<!-- <p>Блог -> <a href="{{ config.base_url }}/blog/"> клац </a></p> -->
-<!-- <a href="https://github.com/n2822/mysite/issues/1#issue-1179351808">Comments</a> -->
 
 {{ section.content | safe }}
+
+
+<div id="fediverse_div">
+  <span>Мои посты из <a href="https://mastodon.ml/web/@GrayKnight" target="_blank">Mastodon</a>:</span>
+</div>
+
+<noscript>Посты: <a href="https://mastodon.ml/web/@GrayKnight" target="_blank">mastodon.ml/web/@GrayKnight</a>
+</noscript>
+<script type='text/javascript' charset='utf-8'>
+  
+  fetch(`https://mastodon.ml/@GrayKnight.rss`)
+    .then(response => response.text())
+    .then(str => new window.DOMParser().parseFromString(str, "text/html"))
+    .then(data => {
+      const items = data.querySelectorAll("item");
+      let fediverse_div = document.getElementById('fediverse_div');
+      items.forEach(element => {
+        let container = document.createElement('div');
+        container.classList.add('fediverse_post');
+
+        let link_to_post = document.createElement('a');
+        link_to_post.setAttribute('href', element.querySelector('link').nextSibling.textContent.trim());
+        link_to_post.setAttribute('target', '_blank');
+        link_to_post.setAttribute('rel', 'noopener');
+        let date = new Date(element.querySelector('pubdate').textContent);
+        link_to_post.textContent = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate() + ' ' + date.getHours() + ':' + date.getMinutes();
+        container.appendChild(link_to_post);
+        
+        let text = document.createElement('span')
+        console.log(element.querySelector('description').textContent)
+        text.textContent = ' | ' + element.querySelector('description').textContent.replace(/<(.|\n)*?>/g, ' ') + ' ';
+        container.appendChild(text);
+
+        let images = document.createElement('span')
+        let post_images = element.querySelectorAll('enclosure')
+        post_images.forEach(image_element => {
+          image = document.createElement('a')
+          image.setAttribute('href', image_element.getAttribute('url'))
+          image.setAttribute('target', '_top');
+          image.textContent = '[фотокарточка]'
+          images.appendChild(image)
+          let empty = document.createElement('span')
+          empty.textContent = ' '
+          images.appendChild(empty)
+        })
+        container.appendChild(images)
+        
+
+        fediverse_div.appendChild(container);
+      });
+    });
+
+</script>
+
+
+
 
 {% endblock content %}
