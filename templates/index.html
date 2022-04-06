@@ -8,8 +8,8 @@
 {{ section.content | safe }}
 
 
+<span>Мои посты из <a href="https://mastodon.ml/web/@GrayKnight" target="_blank">Mastodon</a>:</span>
 <div id="fediverse_div">
-  <span>Мои посты из <a href="https://mastodon.ml/web/@GrayKnight" target="_blank">Mastodon</a>:</span>
 </div>
 
 <noscript>Посты: <a href="https://mastodon.ml/web/@GrayKnight" target="_blank">mastodon.ml/web/@GrayKnight</a>
@@ -44,7 +44,7 @@
         post_images.forEach(image_element => {
           image = document.createElement('a')
           image.setAttribute('href', image_element.getAttribute('url'))
-          image.setAttribute('target', '_top');
+          image.setAttribute('target', '_blank');
           image.textContent = '[фотокарточка]'
           images.appendChild(image)
           let empty = document.createElement('span')
