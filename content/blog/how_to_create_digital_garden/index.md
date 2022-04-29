@@ -1,6 +1,7 @@
 +++
 title="Как сделать цифровой сад"
 date="2022-04-02"
+updated="2022-04-29"
 [taxonomies]
 tags=["logseq", "git"]
 [extra]
