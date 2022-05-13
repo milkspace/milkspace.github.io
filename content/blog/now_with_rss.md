@@ -8,4 +8,4 @@ updated= "2022-03-25"
 
 Просто добавь адрес сайта в свою программу/ расширение для чтения RSS лент
 
-`https://milkspace.github.io/mysite/atom.xml`
+`https://milkspace.github.io/atom.xml`
