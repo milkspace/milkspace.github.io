@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title></title>
+	<link href="https://milkspace.xyz/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://milkspace.xyz"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-04-29T00:00:00+00:00</updated>
+	<id>https://milkspace.xyz/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Создание поста</title>
+		<published>2022-04-05T00:00:00+00:00</published>
+		<updated>2022-04-05T00:00:00+00:00</updated>
+		<link href="https://milkspace.xyz/addpost/" type="text/html"/>
+		<id>https://milkspace.xyz/addpost/</id>
+		<content type="html">&lt;h1 id=&quot;shpargalka-po-dobavleniiu-postov-na-sait&quot;&gt;Шпаргалка по добавлению постов на сайт&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;blog&quot;&gt;Блог&lt;&#x2F;h2&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;+++
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;&#x2F; обязательные переменные
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;title=&amp;quot;название поста&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;date=&amp;quot;дата публикации&amp;quot;             &#x2F;&#x2F; год-месяц-день
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;&#x2F; необязательные переменные
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;description=&amp;quot;описание поста&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;updated=&amp;quot;дата обновления поста&amp;quot;    &#x2F;&#x2F; год-месяц-день 
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;[taxonomies]                        
+&lt;&#x2F;span&gt;&lt;span&gt;tags=[&amp;quot;тег 1&amp;quot;, &amp;quot;тег 2&amp;quot;]            &#x2F;&#x2F; теги
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;[extra]                            
+&lt;&#x2F;span&gt;&lt;span&gt;comments=true                      &#x2F;&#x2F; включить комментарии
+&lt;&#x2F;span&gt;&lt;span&gt;+++
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;proekty&quot;&gt;Проекты&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;igry&quot;&gt;Игры&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;spriatannyi-tekst&quot;&gt;Спрятанный текст&lt;&#x2F;h3&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;&amp;lt;details&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    &amp;lt;summary&amp;gt;Title 1&amp;lt;&#x2F;summary&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    &amp;lt;p&amp;gt;IT&amp;#39;S A SECRET TO EVERYBODY.&amp;lt;&#x2F;p&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;details&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;details&gt;
+    &lt;summary&gt; пример &lt;&#x2F;summary&gt;
+    &lt;p&gt;СПОЙЛЕР&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Как сделать цифровой сад</title>
+		<published>2022-04-02T00:00:00+00:00</published>
+		<updated>2022-04-29T00:00:00+00:00</updated>
+		<link href="https://milkspace.xyz/blog/how-to-create-digital-garden/" type="text/html"/>
+		<id>https://milkspace.xyz/blog/how-to-create-digital-garden/</id>
+		<content type="html">&lt;p&gt;На обычном сайте (как например здесь) посты разбиты по категориям и не связаны между собой. В то время как в &amp;quot;цифровом саду&amp;quot; посты связаны между собой двунаправленными ссылками, что позволяет удобно перемещаться между ними, не выходя каждый раз в главное меню. (A ещё это позволяет строить красивые графы🙂)&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;ustanovka-i-nastroika-logseq&quot;&gt;Установка и настройка logseq&lt;&#x2F;h1&gt;
+&lt;p&gt;Для начала нужно перейти по &lt;a href=&quot;https:&#x2F;&#x2F;logseq.com&#x2F;&quot;&gt;ссылке&lt;&#x2F;a&gt; и скачать &lt;em&gt;logseq&lt;&#x2F;em&gt;&lt;br &#x2F;&gt;
+Открыть программу. (У программы есть русский язык, но я буду показывать английской)&lt;br &#x2F;&gt;
+Сначала нужно создать граф. Просто нажми в центр квадрата и выбери пустую папку, в которой будет храниться граф.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;.&#x2F;attachments&#x2F;Pasted%20image%2020220401160936.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;.&#x2F;attachments&#x2F;Pasted%20image%2020220401123724.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Что-то это совсем не похоже на сад. Будем исправлять. 
+Нажми на три вертикальных палки.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;.&#x2F;attachments&#x2F;Pasted%20image%2020220401124002.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Создай новую страницу. Название может быть любым.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;.&#x2F;attachments&#x2F;Pasted%20image%2020220401124037.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Введи название и нажми  &amp;quot;New page&amp;quot;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;.&#x2F;attachments&#x2F;Pasted%20image%2020220401125049.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Зайди в настройки.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;.&#x2F;attachments&#x2F;Pasted%20image%2020220401125246.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Выбери пункт &amp;quot;Editor&amp;quot; и сними галочку &amp;quot;Journals&amp;quot;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;.&#x2F;attachments&#x2F;Pasted%20image%2020220401125349.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;После снятия галочки появится пункт &amp;quot;Set the default home page&amp;quot;. В него нужно ввести имя страницы, которую ты создал на прошлом шаге. (В моём случае это &amp;quot;главная страница&amp;quot;.) Нажимаешь клавишу &amp;quot;Enter&amp;quot; для подтверждения и, если всё сделано правильно, вверху появится надпись &amp;quot;Home default page updated succesfully!&amp;quot;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;.&#x2F;attachments&#x2F;Pasted%20image%2020220401130828.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;На этой же странице настроек необходимо поставить галочку  &amp;quot;All pages public when publishing&amp;quot;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;.&#x2F;attachments&#x2F;Pasted%20image%2020220401135227.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;С настройками закончили. Осталось добавить контента.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;.&#x2F;attachments&#x2F;Pasted%20image%2020220401161701.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;docs.logseq.com&#x2F;#&#x2F;page&#x2F;Contents&quot;&gt;Ссылка на помощь по logseq&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+Создай новую страницу. Например &amp;quot;тест&amp;quot;. Введи &amp;quot;[[&amp;quot; и начни вводить название одной из существующих страниц. Автоматически добавится &amp;quot;]]&amp;quot; в конце, так и должно быть. Всё нормально.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;.&#x2F;attachments&#x2F;Pasted%20image%2020220401162116.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Выбери нужный вариант стрелочками и нажми &amp;quot;Enter&amp;quot; &lt;del&gt;можно ещё нажать мышкой, но Захар такого не одобрит&lt;&#x2F;del&gt;.&lt;br &#x2F;&gt;
+Страница создалась и теперь можно посмотреть &amp;quot;карту сайта&amp;quot;. Нажми кнопку &lt;code&gt;Graph view&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;.&#x2F;attachments&#x2F;Pasted%20image%2020220401162404.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;.&#x2F;attachments&#x2F;Pasted%20image%2020220401162432.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;publikatsiia-sada&quot;&gt;Публикация сада&lt;&#x2F;h1&gt;
+&lt;p&gt;Сад создан. Осталось его опубликовать. Приступим &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;eksport-grafa-v-sait&quot;&gt;Экспорт графа в сайт&lt;&#x2F;h2&gt;
+&lt;p&gt;Нажимаешь 3 точки вверху справа и выбираешь пункт &lt;code&gt;Export graph&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;.&#x2F;attachments&#x2F;Pasted%20image%2020220401170943.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Выбираешь пункт &lt;code&gt;Export public pages&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;.&#x2F;attachments&#x2F;Pasted%20image%2020220401171038.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Выбираешь пустую папку, в которую будет сохранён сайт
+Затем появится уведомление, что сайт экспортирован&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;zagruzka-na-github&quot;&gt;Загрузка на github&lt;&#x2F;h2&gt;
+&lt;p&gt;Для публикации необходим аккаунт на &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;&quot;&gt;github&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+Создаёшь новый открытый репозиторий (или приватный, если у тебя есть github pro) и загружаешь в него содержимое папки, в которой находится сайт (я не буду пояснять как это делать. ищи в интернете)&lt;br &#x2F;&gt;
+В итоге всё должно получиться как на картинке ниже. Затем заходишь в настройки репозитория.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;.&#x2F;attachments&#x2F;Pasted%20image%2020220401171823.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Заходишь на вкладку &lt;code&gt;Pages&lt;&#x2F;code&gt;, выбираешь ветку, в которой лежит сайт и включаешь &lt;code&gt;HTTPS&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;.&#x2F;attachments&#x2F;Pasted%20image%2020220401172055.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Если всё сделано правильно, появится надпись &lt;code&gt;Your site is published at https:&#x2F;&#x2F;НИКНЕЙМ_АККАУНТА.github.io&#x2F;НАЗВАНИЕ_РЕПОЗИТОРИЯ&#x2F;&lt;&#x2F;code&gt;
+Останется только подождать несколько минут пока сайт загрузится.
+Будут вопросы - пиши в комментарии&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Теперь с RSS</title>
+		<published>2022-03-18T00:00:00+00:00</published>
+		<updated>2022-03-25T00:00:00+00:00</updated>
+		<link href="https://milkspace.xyz/blog/now-with-rss/" type="text/html"/>
+		<id>https://milkspace.xyz/blog/now-with-rss/</id>
+		<content type="html">&lt;p&gt;У сайта появилась поддержка RSS!&lt;&#x2F;p&gt;
+&lt;p&gt;Просто добавь адрес сайта в свою программу&#x2F; расширение для чтения RSS лент&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;https:&#x2F;&#x2F;milkspace.github.io&#x2F;atom.xml&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Тест</title>
+		<published>2022-03-17T00:00:00+00:00</published>
+		<updated>2022-03-31T00:00:00+00:00</updated>
+		<link href="https://milkspace.xyz/blog/test/" type="text/html"/>
+		<id>https://milkspace.xyz/blog/test/</id>
+		<content type="html">&lt;p&gt;&lt;code&gt;1&lt;&#x2F;code&gt; + &lt;code&gt;2&lt;&#x2F;code&gt; = &lt;code&gt;3&lt;&#x2F;code&gt; | &lt;code&gt;print(42)&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;header-1&quot;&gt;header 1&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;header-2&quot;&gt;header 2&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;hrader-3&quot;&gt;hrader 3&lt;&#x2F;h3&gt;
+&lt;h2 id=&quot;header-2-1&quot;&gt;header 2&lt;&#x2F;h2&gt;
+&lt;h1 id=&quot;header-1-1&quot;&gt;header 1&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;header-1-2&quot;&gt;header 1&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;header-2-2&quot;&gt;header 2&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;header-2-3&quot;&gt;header 2&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;1&lt;&#x2F;li&gt;
+&lt;li&gt;2
+&lt;ul&gt;
+&lt;li&gt;3&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;code&gt;dasd&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;asdasd
+&lt;&#x2F;span&gt;&lt;span&gt;as
+&lt;&#x2F;span&gt;&lt;span&gt;d
+&lt;&#x2F;span&gt;&lt;span&gt;sd
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;em&gt;111&lt;&#x2F;em&gt; &lt;strong&gt;222&lt;&#x2F;strong&gt; &lt;em&gt;&lt;strong&gt;333&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; &lt;del&gt;nope&lt;&#x2F;del&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Blockquote&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;asdasds
+asdasdasdas&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;asdasdsa
+asdas&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;| asdasd&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;name&lt;&#x2F;th&gt;&lt;th&gt;usage&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;My Name&lt;&#x2F;td&gt;&lt;td&gt;For Me&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Your Name&lt;&#x2F;td&gt;&lt;td&gt;For You&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;hr &#x2F;&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Header&lt;&#x2F;th&gt;&lt;th&gt;Another Header&lt;&#x2F;th&gt;&lt;th&gt;Yet Another Header&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Value 11&lt;&#x2F;td&gt;&lt;td&gt;Value 12&lt;&#x2F;td&gt;&lt;td&gt;Value 13&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Value 21&lt;&#x2F;td&gt;&lt;td&gt;Value 22&lt;&#x2F;td&gt;&lt;td&gt;Value 23&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Value 31&lt;&#x2F;td&gt;&lt;td&gt;Value 32&lt;&#x2F;td&gt;&lt;td&gt;Value 33&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;br&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;name&lt;&#x2F;th&gt;&lt;th&gt;usage&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;My Name&lt;&#x2F;td&gt;&lt;td&gt;For Me&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Your Name&lt;&#x2F;td&gt;&lt;td&gt;For You&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;typemill.net&#x2F;media&#x2F;markdown.png&quot; alt=&quot;alt-text&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;www.w3schools.com&#x2F;html&#x2F;img_girl.jpg&quot; alt=&quot;Italian Trulli&quot; style=&quot;height:200px&quot;&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;www.w3schools.com&#x2F;html&#x2F;img_girl.jpg&quot; alt=&quot;Girl in a jacket&quot; style=&quot;width:200px&quot;&gt; 
+&lt;p&gt;code:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;scss&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-scss &quot;&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;body &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;  background-color: $&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;nord0&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;  color: $&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;nord8&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;  font: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;100% &lt;&#x2F;span&gt;&lt;span&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;font-stack&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;  max-width: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;50rem&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;  border-style: dashed;
+&lt;&#x2F;span&gt;&lt;span&gt;  border-color: $&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;nord1&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;  padding: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0.3rem&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;  margin: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0 &lt;&#x2F;span&gt;&lt;span&gt;auto;
+&lt;&#x2F;span&gt;&lt;span&gt;  overflow-wrap: break-word;
+&lt;&#x2F;span&gt;&lt;span&gt;  padding-bottom: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;1rem&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;python&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;42&lt;&#x2F;span&gt;&lt;span&gt;)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;code&gt;print(42)&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Write the press release&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Update the website&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Contact the media&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Первый пост</title>
+		<published>2022-03-16T00:00:00+00:00</published>
+		<updated>2022-03-31T00:00:00+00:00</updated>
+		<link href="https://milkspace.xyz/blog/first-post/" type="text/html"/>
+		<id>https://milkspace.xyz/blog/first-post/</id>
+		<content type="html">&lt;p&gt;Привет&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>
