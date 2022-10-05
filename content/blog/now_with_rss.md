@@ -1,11 +1,11 @@
 +++
 title = "Теперь с RSS"
 date = "2022-03-18"
-updated= "2022-03-25"
+updated= "2022-10-3"
 +++
 
 У сайта появилась поддержка RSS!
 
 Просто добавь адрес сайта в свою программу/ расширение для чтения RSS лент
 
-`https://milkspace.github.io/mysite/atom.xml`
+`https://milkspace.xyz/atom.xml`
