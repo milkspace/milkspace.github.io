@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://milkspace.xyz"
+base_url = "https://www.milkspace.xyz"
 generate_feed = true
 taxonomies = [
     { name = "tags", rss = true }
