@@ -54,7 +54,7 @@ body {
   padding-right: 0.3rem;
   font: 100% $font-stack;
   background-color: $nord0;
-  color: $nord3;
+  color: $nord8;
   border-style: dashed;
   border-color: $nord2;
   overflow-wrap: break-word;
@@ -63,10 +63,10 @@ body {
   margin-top: 1rem;
 }
 
-.footer a {
-  color: $nord3;
-  text-decoration: none;
-}
+// .footer a {
+//   color: $nord3;
+//   text-decoration: none;
+// }
 
 
 // .giscus-frame {
