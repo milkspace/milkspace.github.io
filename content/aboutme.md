@@ -15,6 +15,19 @@ title = "обо мне"
 
 Связь со мной:
 
-|        |      |
-| ------ | ---- |
-| coming | soon |
+| куда   | как                |
+| ------ | ------------------ |
+| xmpp   | pytat0@macaw.me    |
+| matrix | @pytat0:matrix.org |
+| email  | [milkspace@duck.com](mailto:milkspace@duck.com)                   |
+
+Соцсети:
+
+|                                                                          |
+| ------------------------------------------------------------------------ |
+| [мини блог](https://quietplace.xyz/@pytat0)|
+| [фотокарточки](https://pixelfed.social/i/web/profile/291706887458656256) |
+| [рисунки](https://pixelfed.de/i/web/profile/290919053038587904)          |
+
+
+
