@@ -13,6 +13,9 @@
     {% if page.updated %}
     <strong> ✏️ {{ page.updated }}</strong>
     {% endif %}
+    {% if page.extra.license %}
+    <br> 🛡️ license: <strong> {{page.extra.license }} </strong>
+    {% endif %}
 </span>
 
 {% if page.toc %}

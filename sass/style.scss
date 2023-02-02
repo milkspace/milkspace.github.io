@@ -62,6 +62,19 @@ body {
   margin: 0 auto;
   margin-top: 1rem;
 }
+.menu {
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  font: 100% $font-stack;
+  background-color: $nord0;
+  color: $nord8;
+  border-style: dashed;
+  border-color: $nord2;
+  overflow-wrap: break-word;
+  max-width: 50rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
 
 // .footer a {
 //   color: $nord3;
@@ -98,11 +111,11 @@ body {
   color: $nord14 !important;
 }
 
-.menu {
-  background-color: $nord0;
-  border-style: dashed;
-  border-color: $nord3;
-}
+// .menu {
+//   background-color: $nord0;
+//   border-style: dashed;
+//   border-color: $nord3;
+// }
 
 .page_title {
   border-style: dashed;
@@ -116,6 +129,8 @@ body {
 }
 
 .section_title {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
   text-decoration: underline;
   color: $nord7;
   display: block;

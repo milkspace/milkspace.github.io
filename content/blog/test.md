@@ -5,6 +5,8 @@ date = "2022-03-17"
 updated = "2022-03-31"
 [taxonomies]
 tags = ["test_tag", "test_tag_2"]
+[extra]
+license = "название лицензии"
 +++
 
 `1` + `2` = `3` | `print(42)`
