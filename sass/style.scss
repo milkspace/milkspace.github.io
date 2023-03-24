@@ -200,6 +200,8 @@ table {
   border-color: $nord9;
   border-width: 0.1rem;
   border-collapse: collapse;
+  overflow-x:scroll;
+  display:block;
 }
 
 th {
