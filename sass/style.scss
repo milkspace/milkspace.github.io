@@ -196,10 +196,10 @@ hr {
 
 table {
   background-color: $nord1;
-  border-style: double;
-  border-color: $nord9;
-  border-width: 0.1rem;
-  border-collapse: collapse;
+  // border-style: double;
+  // border-color: $nord9;
+  // border-width: 0.1rem;
+  // border-collapse: collapse;
   overflow-x:scroll;
   display:block;
 }
@@ -207,7 +207,7 @@ table {
 th {
   color: $nord6;
   background-color: $nord1;
-  border-style: double;
+  border-style: solid;
   border-color: $nord10;
   border-width: 0.2rem;
   padding: 0.2rem;
@@ -216,7 +216,7 @@ th {
 td {
   color: $nord4;
   padding: 0.3rem;
-  border-right: 0.1rem double;
+  // border-right: 0.1rem double;
   border-color: $nord9;
   border-width: 0.1rem;
 }
