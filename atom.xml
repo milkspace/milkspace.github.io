@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title></title>
+    <link href="https://www.milkspace.xyz/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://www.milkspace.xyz"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-05-11T00:00:00+00:00</updated>
+    <id>https://www.milkspace.xyz/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Открытые лицензии. Какие есть и как добавить?</title>
+        <published>2023-05-11T00:00:00+00:00</published>
+        <updated>2023-05-11T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://www.milkspace.xyz/blog/licenses/" type="text/html"/>
+        <id>https://www.milkspace.xyz/blog/licenses/</id>
+        
+        <content type="html">&lt;h1 id=&quot;vvedenie&quot;&gt;Введение&lt;&#x2F;h1&gt;
+&lt;p&gt;Раньше я думал, что то, что лежит на гитхабе - бесплатное и его можно брать и использовать где угодно. А потом я пошёл на летнюю практику и там мне рассказали, что нужно смотреть на лицензию в репозитории и не каждый код мы можем взять себе.. Что это за лицензии и какой код (и не только код) можно брать и использовать бесплатно вы узнаете в этой статье.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;zachem-voobshche-nuzhna-litsenziia&quot;&gt;Зачем вообще нужна лицензия?&lt;&#x2F;h1&gt;
+&lt;p&gt;Лицензия нужна для защиты интеллектуальной собственности и разрешения её использования по определённым условиям и правилам.
+Если вы сделали и выложили какой-то контент или код, то это является вашей собственностью и другие не могут его продавать или как-то использовать (если в правилах платформы, куда вы это выложили не сказано обратного).&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;otsutstvie-litsenzii&quot;&gt;Отсутствие лицензии&lt;&#x2F;h1&gt;
+&lt;p&gt;Если у контента нет лицензии, это не значит, что его можно использовать. Лицензия даёт тебе право им пользоваться на определённых условиях, которые зависят от конкретной лицензии.&lt;&#x2F;p&gt;
+&lt;p&gt;И что мне делать, если у классного проекта в репозитории не указано лицензии? Есть три пути: &lt;del&gt;рейвы, водка и IT&lt;&#x2F;del&gt;&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;попросить человека её добавить &lt;&#x2F;li&gt;
+&lt;li&gt;спросить разрешение использовать код&lt;&#x2F;li&gt;
+&lt;li&gt;пройти мимо&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h1 id=&quot;litsenzii-dlia-kontenta&quot;&gt;Лицензии для контента&lt;&#x2F;h1&gt;
+&lt;p&gt;Наиболее популярными лицензиями для контента являются лицензии &lt;a href=&quot;https:&#x2F;&#x2F;creativecommons.org&#x2F;&quot;&gt;Creative Common&lt;&#x2F;a&gt;. Вот их список и разрешения.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;лицензия&lt;&#x2F;th&gt;&lt;th&gt;продавать&lt;&#x2F;th&gt;&lt;th&gt;изменять&lt;&#x2F;th&gt;&lt;th&gt;смена лицензии&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;CC BY&lt;&#x2F;td&gt;&lt;td&gt;✅&lt;&#x2F;td&gt;&lt;td&gt;✅&lt;&#x2F;td&gt;&lt;td&gt;✅&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;CC BY-SA&lt;&#x2F;td&gt;&lt;td&gt;✅&lt;&#x2F;td&gt;&lt;td&gt;✅&lt;&#x2F;td&gt;&lt;td&gt;❌&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;CC BY-ND&lt;&#x2F;td&gt;&lt;td&gt;✅&lt;&#x2F;td&gt;&lt;td&gt;❌&lt;&#x2F;td&gt;&lt;td&gt;✅&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;CC BY-NC&lt;&#x2F;td&gt;&lt;td&gt;❌&lt;&#x2F;td&gt;&lt;td&gt;✅&lt;&#x2F;td&gt;&lt;td&gt;✅&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;CC BY-NC-SA&lt;&#x2F;td&gt;&lt;td&gt;❌&lt;&#x2F;td&gt;&lt;td&gt;✅&lt;&#x2F;td&gt;&lt;td&gt;❌&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;CC BY-NC-ND&lt;&#x2F;td&gt;&lt;td&gt;❌&lt;&#x2F;td&gt;&lt;td&gt;❌&lt;&#x2F;td&gt;&lt;td&gt;❌&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;каждая из приведённых выше лицензий требует упоминания автора и лицензии&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Продавать?&lt;&#x2F;strong&gt; То есть я могу взять фотокарточки, выпущенные под CC BY, CC BY-SA или CC BY-ND и использовать их в своей книге, ничего не платя автору? Именно так. Только не забудьте указать автора и лицензию.&lt;br &#x2F;&gt;
+Под &lt;strong&gt;изменением&lt;&#x2F;strong&gt; имеется в виду, что вы можете поменять фон фотокарточки или перерисовать голову и использовать её.&lt;br &#x2F;&gt;
+&lt;strong&gt;Отсутствие смены лицензии&lt;&#x2F;strong&gt; подразумевает, что если вы используете фотокарточку под одной из этих лицензий в своей работе, то ваша работа должна быть под той же лицензией.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;litsenzii-dlia-koda&quot;&gt;Лицензии для кода&lt;&#x2F;h1&gt;
+&lt;p&gt;Каждая из приведённых ниже лицензий разрешает использование кода в коммерческих целях, распространение, изменение и использование в личных целях. Вы обязаны упомянуть автора и лицензию, код под защитой которой вы использовали. Автор кода не несёт никой ответственности за работу кода и не предоставляет никаких гарантий (код открыт, вы сами можете посмотреть взорвётся ваш компьютер или нет после его выполнения).&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;лицензия&lt;&#x2F;th&gt;&lt;th&gt;запрещено закрывать исходный код&lt;&#x2F;th&gt;&lt;th&gt;разрешено использование патентных прав автора кода&lt;&#x2F;th&gt;&lt;th&gt;необходимость использования той же лицензии&lt;&#x2F;th&gt;&lt;th&gt;необходимость документировать изменения&lt;&#x2F;th&gt;&lt;th&gt;запрещено использовать товарный знак&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;GNU GPLv3&lt;&#x2F;td&gt;&lt;td&gt;✔&lt;&#x2F;td&gt;&lt;td&gt;✔&lt;&#x2F;td&gt;&lt;td&gt;✔&lt;&#x2F;td&gt;&lt;td&gt;✔&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;MIT License&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Apache License 2.0&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;td&gt;✔&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;td&gt;✔&lt;&#x2F;td&gt;&lt;td&gt;✔&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Mozilla Public License 2.0&lt;&#x2F;td&gt;&lt;td&gt;✔&lt;&#x2F;td&gt;&lt;td&gt;✔&lt;&#x2F;td&gt;&lt;td&gt;✔  (для изменённых файлов)&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;td&gt;✔&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;Вы можете встретить &lt;strong&gt;AGPLv3&lt;&#x2F;strong&gt; и &lt;strong&gt;LGPLv3&lt;&#x2F;strong&gt; лицензии. Они почти идентичны &lt;strong&gt;GPLv3&lt;&#x2F;strong&gt;, но есть небольшие различия. Сервис, который использует код распространяющийся под &lt;strong&gt;AGPLv3&lt;&#x2F;strong&gt;, должен позволять его скачать. Если вы используете код, распространяющийся под &lt;strong&gt;LGPLv3&lt;&#x2F;strong&gt; как библиотеку в своём проекте, то вы можете использовать другую лицензию и не открывать свой код.&lt;&#x2F;p&gt;
+&lt;p&gt;Открытых лицензий намного больше, в таблице выше я лишь самые популярные. Список всех лицензий доступен по &lt;a href=&quot;https:&#x2F;&#x2F;choosealicense.com&#x2F;appendix&quot;&gt;ссылке&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Стоит также упомянуть о том, что вы можете выпустить свой код без лицензии и передать его в общественное достояние. Это почти та же MIT License, но без необходимости упомянуть автора. Узнать больше и посмотреть список проектов, находящихся в общественном достоянии, и которые можно использовать без упоминания автора можно по &lt;a href=&quot;https:&#x2F;&#x2F;unlicense.org&#x2F;&quot;&gt;ссылке&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;i-kak-mne-dobavit-litsenziiu-na-svoi-kontent-kod&quot;&gt;И как мне добавить лицензию на свой контент &#x2F; код?&lt;&#x2F;h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Убедиться в том, что то, что вы хотите лицензировать, является вашей работой или работой, которую вы можете лицензировать.&lt;&#x2F;li&gt;
+&lt;li&gt;Осознать, что отозвать лицензию не легко и люди, скачавшие ваш контент, до того момента, как вы отозвали лицензию, могут продолжить его использовать.&lt;&#x2F;li&gt;
+&lt;li&gt;Указать на странице со своей работой или в самой работе, что она распространяется под данной лицензией. Также добавьте текст выбранной вами лицензии. Нигде регистрироваться не нужно.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h1 id=&quot;vyvod&quot;&gt;Вывод&lt;&#x2F;h1&gt;
+&lt;p&gt;Я рассказал про популярные открытые лицензии и том как их применить.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Как приготовить плов</title>
+        <published>2022-12-13T00:00:00+00:00</published>
+        <updated>2022-12-13T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://www.milkspace.xyz/blog/pilaf/" type="text/html"/>
+        <id>https://www.milkspace.xyz/blog/pilaf/</id>
+        
+        <content type="html">&lt;h1 id=&quot;nachalo&quot;&gt;Начало&lt;&#x2F;h1&gt;
+&lt;p&gt;⚠ Осторожно! Данный рецепт не содержит картинок. &lt;del&gt;Никогда не видел рецепты без картинок на сайтах&lt;&#x2F;del&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Тут я коротко расскажу как готовить плов и сам буду пользоваться этой статьёй как шпаргалкой 👀&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;chto-nuzhno&quot;&gt;Что нужно?&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;ingredienty&quot;&gt;Ингредиенты&lt;&#x2F;h2&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;что&lt;&#x2F;th&gt;&lt;th&gt;сколько&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;лук&lt;&#x2F;td&gt;&lt;td&gt;2 штуки&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;морковка&lt;&#x2F;td&gt;&lt;td&gt;2 большие штуки&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;мясо&lt;&#x2F;td&gt;&lt;td&gt;много*&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;рис&lt;&#x2F;td&gt;&lt;td&gt;2 стакана&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;чеснок&lt;&#x2F;td&gt;&lt;td&gt;1 штука&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;специи&lt;&#x2F;td&gt;&lt;td&gt;по вкусу&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;соль&lt;&#x2F;td&gt;&lt;td&gt;неполная столовая ложка&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;* Куриная грудка или филе&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;instrument&quot;&gt;Инструмент&lt;&#x2F;h2&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;что&lt;&#x2F;th&gt;&lt;th&gt;сколько&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;нож&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;утятница&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;разделочная доска&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;дуршлаг&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;стакан&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;плита&lt;&#x2F;td&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h1 id=&quot;kak-gotovit&quot;&gt;Как готовить?&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;podgotovka-k-gotovke&quot;&gt;Подготовка к готовке&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Наливаем масло в утятницу (это такая посуда, а не дом для уточек) и ставим на маленький огонь.&lt;&#x2F;li&gt;
+&lt;li&gt;Чистим и режем лук. Я бы рекомендовал найти человека, который это сделает за вас, но если такого человека рядом нет - придётся плакать самому.&lt;&#x2F;li&gt;
+&lt;li&gt;Чистим и режем морковку.&lt;&#x2F;li&gt;
+&lt;li&gt;Высыпаем рис в дуршлаг и промываем его холодной водой&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;gotovka&quot;&gt;Готовка&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Выкладываем лук в утятницу.&lt;&#x2F;li&gt;
+&lt;li&gt;Выкладываем морковку в утятницу.&lt;&#x2F;li&gt;
+&lt;li&gt;Нарезаем мясо на квадратики или кусочки любой другой удобной вам формы и выкладываем его в утятницу.&lt;&#x2F;li&gt;
+&lt;li&gt;Наливаем в чайник 4 стакана воды и ставим на плиту.&lt;&#x2F;li&gt;
+&lt;li&gt;Высыпаем рис в утятницу и заливаем закипевшей водой.&lt;&#x2F;li&gt;
+&lt;li&gt;Добавляем неполную столовую ложку соли, специи по вкусу &lt;&#x2F;li&gt;
+&lt;li&gt;Ждём пока вода поднимется до уровня риса и вставляем головку чеснока в рис.&lt;&#x2F;li&gt;
+&lt;li&gt;Закрываем крышкой и оставляем на маленьком огне готовиться на полчаса.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h1 id=&quot;konets&quot;&gt;Конец&lt;&#x2F;h1&gt;
+&lt;p&gt;Теперь вы знаете как приготовить вкусный плов 👀  Поздравляю 🎊&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Я попробовал настольный Battletech</title>
+        <published>2022-12-08T00:00:00+00:00</published>
+        <updated>2022-12-08T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://www.milkspace.xyz/blog/battletech-first-game/" type="text/html"/>
+        <id>https://www.milkspace.xyz/blog/battletech-first-game/</id>
+        
+        <content type="html">&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.milkspace.xyz&#x2F;blog&#x2F;battletech-first-game&#x2F;attachments&#x2F;Pasted%20image%2020221208223412.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;batl-chto&quot;&gt;Батл что?&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;strong&gt;Battletech&lt;&#x2F;strong&gt; - вселенная, которая старше меня, да и тебя, читатель, скорее всего тоже. Действия происходят в 31 веке, где на полях сражения дерутся огромные роботы (мехи). Пришельцев или магии здесь нет, только люди, уничтожающие друг друга, и продвинутые технологии.&lt;&#x2F;p&gt;
+&lt;p&gt;Подарил себе стартовый набор на день рождения, прочитал правила (50 страниц) и отправился разбираться.&lt;&#x2F;p&gt;
+&lt;p&gt;Дальше описаны 2 первых тренировочных боя и впечатления от игры.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;podgotovka&quot;&gt;Подготовка&lt;&#x2F;h1&gt;
+&lt;p&gt;Я взял два меха Тандерболта и Вальверина (все вопросы к русской локализации) и столкнул их друг с другом. Почему именно этих двух? Ну в видосике на ютубе сказали, что они хороши для старта, и разность в 300 очков стоимости меня не смутила.&lt;&#x2F;p&gt;
+&lt;p&gt;Пилоты стандартные из сферы с навыками 4 5 (слышал, что можно балансировать разность в очках навыками пилотов, но не нашёл как это сделать). Пилотам выдал имена Вупсень (Вальверин) и Пупсень (Тандерболт)&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;pervyi-boi&quot;&gt;Первый бой&lt;&#x2F;h1&gt;
+&lt;p&gt;В первый ход мехи приблизились друг к другу. Вупсень ходил 2й и спрятался за скалой, поэтому в первый ход никто не стрелял.&lt;&#x2F;p&gt;
+&lt;p&gt;Во второй ход Вупсень стрелял первый: промазал лазером, а вот первая ракета нанесла Пупсеню критическое попадание по корпусу и повредило боеукладку, что повлекло за собой её детонацию и уничтожение всего меха.&lt;&#x2F;p&gt;
+&lt;p&gt;В боеукладке лежало 10 запусков по 12 ракет, наносящих 1 единицу урона, а броня и обшивка корпуса имели в сумме 51 очко прочности.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;vtoroi-boi&quot;&gt;Второй бой&lt;&#x2F;h1&gt;
+&lt;p&gt;Здесь сражение длилось больше времени, и я понял, что если мех не взрывается в первый свой ход, то он достаточно живучий.&lt;&#x2F;p&gt;
+&lt;p&gt;Просто стреляться мехами мне надоело и я столкнул их в ближнем бою. Опробовал атаку &amp;quot;Смерть с небес&amp;quot;. Это когда мех не может стрелять в фазу стрельбы, получает в лицо кучу урона, затем промахивается по цели, падает и получает ещё урон. Затем лежит на земле. Пытается встать, снова падает (и соответственно снова получает урон) и только потом встаёт.
+Но потом я решил попробовать ещё раз и атака прошла успешно, но я почему-то ожидал что-то более эпичное.&lt;&#x2F;p&gt;
+&lt;p&gt;Когда с прыжками мехов друг на друга я наигрался, я отправил Вупсеня в лес, чтобы он нашёл себе там дерево, а потом ударил им Пупсеня. (я это не сам придумал. в правилах описано как драться деревьями или оторванными конечностями).
+Дерево Вупсень нашёл, но ударить им Пупсеня ему было не суждено, так как последний отстрелил Вупсеню руку..&lt;&#x2F;p&gt;
+&lt;p&gt;Всё закончилось взрывом боеукладки, но на этот раз проиграл Вупсень.&lt;&#x2F;p&gt;
+&lt;p&gt;В какой-то момент я подумал, что как-то эти мехи не греются особо, а потом заметил, что я учитывал 3 лазера Пупсеня как 1. В итоге мех был холоднее моего ноута и всего пару раз немного нагревался. А нагрев здесь важен. Быть может, если я бы был более внимательным, то Вупсень умер бы немного позже..&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;itogi&quot;&gt;Итоги&lt;&#x2F;h1&gt;
+&lt;p&gt;Игра крутая. Мне понравилось. Осталось найти соперника и устроить сражение хотя бы 2 на 2. Потом можно будет купить набор кланов и устроить драку Звезды (5 мехов) против двух Копий (8 мехов).
+Буду разбираться дальше и думать о покупке кланов в качестве новогоднего подарка себе.&lt;&#x2F;p&gt;
+&lt;p&gt;Было бы здорово ещё какое сообщество найти, если не в ближайшем городе, то хотя бы в интернете, чтобы играть и задавать какие-то вопросы. Если знаете такие - пишите в комменты.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>XMPP или как общаться нормально</title>
+        <published>2022-10-05T00:00:00+00:00</published>
+        <updated>2023-04-14T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://www.milkspace.xyz/blog/xmpp/" type="text/html"/>
+        <id>https://www.milkspace.xyz/blog/xmpp/</id>
+        
+        <content type="html">&lt;h1 id=&quot;vvedenie&quot;&gt;Введение&lt;&#x2F;h1&gt;
+&lt;p&gt;Для общения я в основном использую Telegram, VK и Discord. Последнее время ещё и Instagram. Не нужно закидывать меня камнями, относительно недавно я зарегистрировался в &lt;strong&gt;Matrix&lt;&#x2F;strong&gt; и &lt;strong&gt;XMPP&lt;&#x2F;strong&gt;. О последнем и хочу рассказать в этой статье.&lt;&#x2F;p&gt;
+&lt;p&gt;Цель статьи познакомить читателя с XMPP, который ещё про него не знает. У меня в XMPP только пару контактов, и мне бы хотелось увеличить их число.  А так я смогу сбрасывать эту статью людям и не придётся каждому всё объяснять.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;pochemu-by-prosto-ne-ispol-zovat-kh-prilozhenie&quot;&gt;Почему бы просто не использовать Х приложение&lt;&#x2F;h2&gt;
+&lt;p&gt;Про &lt;em&gt;WhatsApp&lt;&#x2F;em&gt; и &lt;em&gt;Viber&lt;&#x2F;em&gt; даже писать не хочу. &lt;em&gt;Signal&lt;&#x2F;em&gt; выглядит прикольно, уверяет что он супер безопасный, но требует номер телефона.. &lt;em&gt;Instagram&lt;&#x2F;em&gt; перестал присылать уведомления и неудобный, ещё постоянно следит за тобой и кормит рекламой. &lt;em&gt;VK Messenger&lt;&#x2F;em&gt; по размерам почти такой же большой, как и обычное приложение, медленный и вообще непонятно как работает (на телефоне выключил отображение статуса в сети, на компе периодически показывает когда в последний раз заходил человек). &lt;em&gt;Telegram&lt;&#x2F;em&gt; прикольный, но в последнее время в него слишком много всего добавляют и появилась реклама. &lt;em&gt;Discord&lt;&#x2F;em&gt; удобен посидеть с друзьями, но тоже слишком большой для простого обмена сообщениями. &lt;em&gt;Смс&lt;&#x2F;em&gt; просто дорогие и картинку с котиком не отправишь через них. &lt;del&gt;если вы пользуетесь ММС, то у вас похоже нет почки&lt;&#x2F;del&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;chego-ia-voobshche-khochu-ot-prilozheniia-dlia-soobshchenii&quot;&gt;Чего я вообще хочу от приложения для сообщений&lt;&#x2F;h2&gt;
+&lt;p&gt;Ну для начало оно должно быть &lt;strong&gt;бесплатным&lt;&#x2F;strong&gt;, &lt;strong&gt;маленьким&lt;&#x2F;strong&gt;, &lt;strong&gt;быстрым&lt;&#x2F;strong&gt; и &lt;strong&gt;без рекламы&lt;&#x2F;strong&gt;. Ещё &lt;strong&gt;безопасным&lt;&#x2F;strong&gt;, чтобы никто, кроме моего собеседника не мог узнать какие глупые шутки посещают мою голову и сколько раз я сегодня покушал.&lt;&#x2F;p&gt;
+&lt;p&gt;&amp;quot;&lt;em&gt;Это ты круто конечно придумал&lt;&#x2F;em&gt;&amp;quot;: скажет читатель и предложит мне принести машинку для закатывания губ. Но не стоит смеяться (лёгкой улыбки будет достаточно), ведь такое приложение (и не одно) есть. Встречайте &lt;strong&gt;XMPP&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;kto-eto-etot-vash-xmpp&quot;&gt;Кто это этот ваш XMPP?&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;strong&gt;XMPP&lt;&#x2F;strong&gt; — расширяемый протокол для обмена сообщениями. Протокол? Во введении же про приложение было. Сейчас объясню. Существует много серверов и приложений поддерживающих этот протокол, что не только создаёт некоторые трудности, но и позволяет общаться пользователям на разных платформах и использующим разные приложения.&lt;&#x2F;p&gt;
+&lt;p&gt;Дальше я расскажу про особенности протокола, покажу пару серверов, объясню как на них зарегистрироваться и предложу на выбор несколько приложений, поддерживающих этот протокол.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;bezopasnost&quot;&gt;Безопасность&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;em&gt;-А что если администратор сервера захочет прочитать мои сообщения?&lt;&#x2F;em&gt; У него ничего не выйдет, ведь большинство приложений поддерживают шифрование (OMEMO и&#x2F;или PGP). Мне нравится, когда тебе не нужно доверять серверу. Ведь ты знаешь, что даже при желании он тебе ничего не сделает. &lt;del&gt;Может конечно аккаунт удалить и все твои сообщения вместе с ним, но не прочитать их.&lt;&#x2F;del&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Тут стоить отметить, что не все клиенты поддерживают шифрование. Читайте описание или смотрите настройки клиента, который скачиваете.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;em&gt;- А что если создатель приложения украдёт мои сообщения?&lt;&#x2F;em&gt; Ну многие XMPP клиенты имеют открытый исходный код и вы можете посмотреть как они работают. Или оставить это тем, кто в этом что-то понимает.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;- У меня есть безопасный Telegram.&lt;&#x2F;em&gt; Ну да, только он против создания альтернативных клиентов, шифрует только сообщения из приватных чатов (с компа прочитать то, что тебе отправили на телефон не выйдет, а это неудобно) и хранит все сообщения на своих закрытых серверах.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;del&gt;&lt;em&gt;- Мне нечего скрывать.&lt;&#x2F;em&gt; Тогда и одежду не носи..&lt;&#x2F;del&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;detsentralizatsiia&quot;&gt;Децентрализация&lt;&#x2F;h2&gt;
+&lt;p&gt;Нет главного сервера и все сервера (если не выключить эту функцию в настройках) могут общаться друг с другом. То есть вы можете быть зарегистрированы на одном сервере, а ваш друг на другом и всё равно сможете общаться.&lt;&#x2F;p&gt;
+&lt;p&gt;Если с вашим сервером что-то случится или вас заблокируют, то вы можете зарегистрироваться на другом сервере &lt;del&gt;или поднять свой&lt;&#x2F;del&gt; и писать друзьям с других серверов.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;pochemu-on-besplatnyi&quot;&gt;Почему он бесплатный?&lt;&#x2F;h2&gt;
+&lt;p&gt;Как люди делают скворечники так и энтузиасты создают сервера, на которых люди могут регистрироваться и бесплатно общаться. &lt;del&gt;Вы ведь не берёте деньги у птиц&lt;&#x2F;del&gt; Сервера, поддерживающие XMPP, потребляют немного ресурсов и могут обслуживать много людей 👀&lt;&#x2F;p&gt;
+&lt;p&gt;Изначально предполагалось, что XMPP будут использовать крупные компании и пользователи Vkontakte, например, смогут писать пользователям Instagram без регистрации в нём. Звучит круто не правда ли?  Компании так и сделали, а потом поняли, что делиться пользователями невыгодно. Что эти человеки позволяют себе вообще? Пускай у нас регистрируются и приносят нам свои данные. 
+Некоторые пошли ещё дальше и сделали приложения на основе XMPP, закрыли код и запретили им общаться с серверами других компаний.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;chto-on-mozhet&quot;&gt;Что он может?&lt;&#x2F;h2&gt;
+&lt;p&gt;Ну здесь можно отправлять зашифрованные сообщения, картинки, голосовые, звонить друг другу, есть групповые чаты. А чего вы ещё ждали от приложения для общения? Некоторые приложения из списка ниже имеют дополнительные функции.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;kak-naiti-server&quot;&gt;Как найти сервер?&lt;&#x2F;h1&gt;
+&lt;p&gt;Здесь есть два пути. Сделать свой сервер или зарегистрироваться на уже существующем. Сервера можно найти в интернетах, но если вы тоже ленивый, то вот парочка: &lt;a href=&quot;https:&#x2F;&#x2F;macaw.me&#x2F;services&#x2F;xmpp.html&quot;&gt;macaw.me&lt;&#x2F;a&gt; (поддерживает регистрацию из клиента), &lt;a href=&quot;https:&#x2F;&#x2F;poridge.club&#x2F;service.html&quot;&gt;poridge.club&lt;&#x2F;a&gt; (тут уже нужно стучаться &lt;a href=&quot;https:&#x2F;&#x2F;poridge.club&#x2F;contact.html&quot;&gt;админу в личку&lt;&#x2F;a&gt;, чтобы он вас зарегистрировал). Ну или на &lt;a href=&quot;https:&#x2F;&#x2F;xmpp.love&#x2F;&quot;&gt;этом сайте&lt;&#x2F;a&gt; можно что-нибудь найти. Можете свой сервер в комментарии написать и я его сюда добавлю.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;registratsiia&quot;&gt;Регистрация&lt;&#x2F;h2&gt;
+&lt;p&gt;В большинстве клиентов вы просто вводите адрес сервера (некоторые клиенты уже имеют несколько готовых серверов), на котором хотите зарегистрироваться, выбираете имя пользователя и пароль. Никаких адресов электронной почты или номера телефона не нужно. &lt;&#x2F;p&gt;
+&lt;p&gt;Имя пользователя состоит из вашего логина и сервера, разделённых собакой. То есть, если вас зовут &lt;em&gt;Biba&lt;&#x2F;em&gt;, а зарегистрировались вы на сервере &lt;em&gt;Bo.ba&lt;&#x2F;em&gt;, то полное имя пользователя будет &lt;strong&gt;Biba@Bo.ba&lt;&#x2F;strong&gt;. Говорите это имя другу, он вписывает его в своё приложение и вы можете общаться.&lt;&#x2F;p&gt;
+&lt;p&gt;Пароль стоит выбирать подлиннее (не менее 8 знаков, я бы рекомендовал 30-60) и понадёжнее (заглавные и строчные буквы, цифры и спецсимволы). Лучше сразу записать пароль в &lt;del&gt;блокнот&lt;&#x2F;del&gt; свой менеджер паролей. В случае потери пароля его не выйдет восстановить по номеру телефона или электронной почты. Придётся писать админу и просить чтобы сбросил вам пароль и ещё доказать, что вы это вы.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;a-kak-skachat-klienty&quot;&gt;А как скачать? (клиенты)&lt;&#x2F;h1&gt;
+&lt;p&gt;Вот по &lt;a href=&quot;https:&#x2F;&#x2F;macaw.me&#x2F;services&#x2F;xmpp.html&quot;&gt;этой ссылке&lt;&#x2F;a&gt; (нужно немного вниз пролистать) много клиентов для разных платформ. Ниже приведу лишь некоторые из них. &lt;&#x2F;p&gt;
+&lt;p&gt;Можно ничего не качать и воспользоваться браузерным &lt;a href=&quot;https:&#x2F;&#x2F;conversejs.org&#x2F;fullscreen.html&quot;&gt;клиентом&lt;&#x2F;a&gt; (но лучше скачать)&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;android&quot;&gt;Android&lt;&#x2F;h2&gt;
+&lt;p&gt;Скачал и попробовал &lt;a href=&quot;https:&#x2F;&#x2F;conversations.im&#x2F;&quot;&gt;Conversations&lt;&#x2F;a&gt; и &lt;a href=&quot;https:&#x2F;&#x2F;blabber.im&#x2F;&quot;&gt;blabber.im&lt;&#x2F;a&gt;. Оба хороши, но есть пара нюансов. &lt;strong&gt;Conversations&lt;&#x2F;strong&gt; платный в Play Market, а &lt;strong&gt;blabber.im&lt;&#x2F;strong&gt; в Play Market просто нет.. Но есть выход - скачать &lt;strong&gt;blabber.im&lt;&#x2F;strong&gt; на официальном сайте. &lt;del&gt;только не говорите владельцам айфонов об этом&lt;&#x2F;del&gt; Также оба приложения есть в &lt;a href=&quot;https:&#x2F;&#x2F;f-droid.org&quot;&gt;Fdroid&lt;&#x2F;a&gt; (и оба там бесплатные).&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;iphone&quot;&gt;Iphone&lt;&#x2F;h2&gt;
+&lt;p&gt;У меня айфона нет, но я воспользовался яблоком брата и поставил туда &lt;a href=&quot;https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;monal-xmpp-chat&#x2F;id317711500&quot;&gt;Monal&lt;&#x2F;a&gt;. Зарегал его на macaw.me и отправил пару тестовых сообщений, всё работает, только вот звонки в &lt;strong&gt;Monal&lt;&#x2F;strong&gt; не завезли..&lt;&#x2F;p&gt;
+&lt;p&gt;Пока писал статью нашёл в AppStore &lt;a href=&quot;https:&#x2F;&#x2F;apps.apple.com&#x2F;us&#x2F;app&#x2F;siskin-im&#x2F;id1153516838&quot;&gt;Siskin IM&lt;&#x2F;a&gt;, который должен поддерживать звонки, сам не проверял.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;linux&quot;&gt;Linux&lt;&#x2F;h2&gt;
+&lt;p&gt;Своими руками потрогать не смог, но вроде как &lt;a href=&quot;https:&#x2F;&#x2F;dino.im&#x2F;&quot;&gt;Dino&lt;&#x2F;a&gt; классный.&lt;&#x2F;p&gt;
+&lt;p&gt;В комментариях меня поправили, что &lt;em&gt;Dino&lt;&#x2F;em&gt; ещё в разработке и лучше добавить в статью &lt;a href=&quot;https:&#x2F;&#x2F;gajim.org&#x2F;&quot;&gt;gajim&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Для того, чтобы включить шифрование, необходимо зайти во вкладку &lt;em&gt;Plugins&lt;&#x2F;em&gt; и выбрать &lt;em&gt;OMEMO&lt;&#x2F;em&gt;.
+На Linux нужно ещё установить пару пакетов из гайда по &lt;a href=&quot;https:&#x2F;&#x2F;dev.gajim.org&#x2F;gajim&#x2F;gajim-plugins&#x2F;-&#x2F;wikis&#x2F;OmemoGajimPlugin&quot;&gt;ссылке&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;windows&quot;&gt;Windows&lt;&#x2F;h2&gt;
+&lt;p&gt;Не помню трогал ли его, но есть &lt;a href=&quot;https:&#x2F;&#x2F;gajim.org&#x2F;&quot;&gt;gajim&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Для того, чтобы включить шифрование, необходимо зайти во вкладку &lt;em&gt;Plugins&lt;&#x2F;em&gt; и выбрать &lt;em&gt;OMEMO&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;neuzheli-u-nego-net-minusov&quot;&gt;Неужели у него нет минусов?&lt;&#x2F;h2&gt;
+&lt;p&gt;Конечно есть. Тут нельзя удалять сообщения и если вы зашли с нового устройства, то не сможете увидеть зашифрованные сообщения, отправленные со старого. Это стало мемом и в следующем разделе я объясню почему так происходит.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;soobshchenie-ne-zashifrovano-dlia-etogo-ustroistva&quot;&gt;Сообщение не зашифровано для этого устройства&lt;&#x2F;h3&gt;
+&lt;p&gt;Вы заходите с нового устройства и видите, что на месте старых сообщений надпись &amp;quot;сообщение не зашифровано для этого устройства&amp;quot;. Это не баг, а фича! Иногда правда достаточно неприятная, но после отправки сообщения с нового устройства, его можно будет прочитать на старом. И наоборот сообщения со старого устройства будут видны на новом. Это происходит из-за того, что во время отправки сообщения ваше устройство шифрует их для конкретных получателей (других ваших устройств и устройств вашего собеседника). Код пишут обычные люди, а не гадалки и колдуны и поэтому ваш телефон не может знать с какого устройства вы решите зайти и зашифровать для него сообщение заранее. С одной стороны это может быть неудобно, а с другой если какой-нибудь хакер украдёт ваш логин и пароль от xmpp, то он не сможет получить историю зашифрованных сообщений.&lt;&#x2F;p&gt;
+&lt;p&gt;Совет: Если вы видите надпись, что сообщение друга не зашифровано для данного устройства, то напишите ему об этом обычным сообщением (без шифрования). У некоторых людей может быть выключена функция автоматического добавления новых ключей.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;zakliuchenie&quot;&gt;Заключение&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;del&gt;Мне написали, что статья выглядит незаконченной, и я решил это исправить. Конец.&lt;&#x2F;del&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Я рассказал что такое XMPP, почему он классный и предложил пару серверов и клиентов. Надеюсь он вам понравится и ваше общение станет более комфортным и безопасным.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Создание поста</title>
+        <published>2022-04-05T00:00:00+00:00</published>
+        <updated>2022-04-05T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://www.milkspace.xyz/addpost/" type="text/html"/>
+        <id>https://www.milkspace.xyz/addpost/</id>
+        
+        <content type="html">&lt;h1 id=&quot;shpargalka-po-dobavleniiu-postov-na-sait&quot;&gt;Шпаргалка по добавлению постов на сайт&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;blog&quot;&gt;Блог&lt;&#x2F;h2&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;+++
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;&#x2F; обязательные переменные
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;title=&amp;quot;название поста&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;date=&amp;quot;дата публикации&amp;quot;             &#x2F;&#x2F; год-месяц-день
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&#x2F;&#x2F; необязательные переменные
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;description=&amp;quot;описание поста&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;updated=&amp;quot;дата обновления поста&amp;quot;    &#x2F;&#x2F; год-месяц-день 
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;[taxonomies]
+&lt;&#x2F;span&gt;&lt;span&gt;tags=[&amp;quot;тег 1&amp;quot;, &amp;quot;тег 2&amp;quot;]            &#x2F;&#x2F; теги
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;[extra]
+&lt;&#x2F;span&gt;&lt;span&gt;comments=true                      &#x2F;&#x2F; включить комментарии
+&lt;&#x2F;span&gt;&lt;span&gt;license=text                       &#x2F;&#x2F; указать лицензию (текст)
+&lt;&#x2F;span&gt;&lt;span&gt;+++
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;proekty&quot;&gt;Проекты&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;igry&quot;&gt;Игры&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;spriatannyi-tekst&quot;&gt;Спрятанный текст&lt;&#x2F;h3&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;&amp;lt;details&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    &amp;lt;summary&amp;gt;Title 1&amp;lt;&#x2F;summary&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    &amp;lt;p&amp;gt;IT&amp;#39;S A SECRET TO EVERYBODY.&amp;lt;&#x2F;p&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;details&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;details&gt;
+    &lt;summary&gt; пример &lt;&#x2F;summary&gt;
+    &lt;p&gt;СПОЙЛЕР&lt;&#x2F;p&gt;
+&lt;&#x2F;details&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Лицензии и технологии</title>
+        <published>2022-04-05T00:00:00+00:00</published>
+        <updated>2022-04-05T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://www.milkspace.xyz/borrowed-goods/" type="text/html"/>
+        <id>https://www.milkspace.xyz/borrowed-goods/</id>
+        
+        <content type="html">&lt;h1 id=&quot;tekhnologii-i-kontent-kotorye-ispol-zovalis-pri-sozdanii-saita&quot;&gt;Технологии и контент, которые использовались при создании сайта&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;tekhnologii&quot;&gt;Технологии&lt;&#x2F;h2&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;название&lt;&#x2F;th&gt;&lt;th&gt;что это&lt;&#x2F;th&gt;&lt;th&gt;ссылка&lt;&#x2F;th&gt;&lt;th&gt;лицензия&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Zola&lt;&#x2F;td&gt;&lt;td&gt;генератор статический сайтов&lt;&#x2F;td&gt;&lt;td&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;тык&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;MIT&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Giscus&lt;&#x2F;td&gt;&lt;td&gt;система комментариев&lt;&#x2F;td&gt;&lt;td&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;giscus&#x2F;giscus&quot;&gt;жмяк&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;MIT&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Plausible (tracker)&lt;&#x2F;td&gt;&lt;td&gt;трекер активности, который не собирает личные данные&lt;&#x2F;td&gt;&lt;td&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;plausible&#x2F;analytics&quot;&gt;клац&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;MIT&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;kontent&quot;&gt;Контент&lt;&#x2F;h2&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;что&lt;&#x2F;th&gt;&lt;th&gt;где&lt;&#x2F;th&gt;&lt;th&gt;ссылка&lt;&#x2F;th&gt;&lt;th&gt;лицензия&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;картинка с ракетой&lt;&#x2F;td&gt;&lt;td&gt;иконка (фавикон) сайта&lt;&#x2F;td&gt;&lt;td&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mozilla&#x2F;fxemoji&quot;&gt;клац&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;&lt;td&gt;CC BY&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Как сделать цифровой сад</title>
+        <published>2022-04-02T00:00:00+00:00</published>
+        <updated>2022-04-29T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://www.milkspace.xyz/blog/how-to-create-digital-garden/" type="text/html"/>
+        <id>https://www.milkspace.xyz/blog/how-to-create-digital-garden/</id>
+        
+        <content type="html">&lt;p&gt;На обычном сайте (как например здесь) посты разбиты по категориям и не связаны между собой. В то время как в &amp;quot;цифровом саду&amp;quot; посты связаны между собой двунаправленными ссылками, что позволяет удобно перемещаться между ними, не выходя каждый раз в главное меню. (A ещё это позволяет строить красивые графы🙂)&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;ustanovka-i-nastroika-logseq&quot;&gt;Установка и настройка logseq&lt;&#x2F;h1&gt;
+&lt;p&gt;Для начала нужно перейти по &lt;a href=&quot;https:&#x2F;&#x2F;logseq.com&#x2F;&quot;&gt;ссылке&lt;&#x2F;a&gt; и скачать &lt;em&gt;logseq&lt;&#x2F;em&gt;&lt;br &#x2F;&gt;
+Открыть программу. (У программы есть русский язык, но я буду показывать английской)&lt;br &#x2F;&gt;
+Сначала нужно создать граф. Просто нажми в центр квадрата и выбери пустую папку, в которой будет храниться граф.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.milkspace.xyz&#x2F;blog&#x2F;how-to-create-digital-garden&#x2F;.&#x2F;attachments&#x2F;Pasted%20image%2020220401160936.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.milkspace.xyz&#x2F;blog&#x2F;how-to-create-digital-garden&#x2F;.&#x2F;attachments&#x2F;Pasted%20image%2020220401123724.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Что-то это совсем не похоже на сад. Будем исправлять. 
+Нажми на три вертикальных палки.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.milkspace.xyz&#x2F;blog&#x2F;how-to-create-digital-garden&#x2F;.&#x2F;attachments&#x2F;Pasted%20image%2020220401124002.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Создай новую страницу. Название может быть любым.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.milkspace.xyz&#x2F;blog&#x2F;how-to-create-digital-garden&#x2F;.&#x2F;attachments&#x2F;Pasted%20image%2020220401124037.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Введи название и нажми  &amp;quot;New page&amp;quot;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.milkspace.xyz&#x2F;blog&#x2F;how-to-create-digital-garden&#x2F;.&#x2F;attachments&#x2F;Pasted%20image%2020220401125049.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Зайди в настройки.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.milkspace.xyz&#x2F;blog&#x2F;how-to-create-digital-garden&#x2F;.&#x2F;attachments&#x2F;Pasted%20image%2020220401125246.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Выбери пункт &amp;quot;Editor&amp;quot; и сними галочку &amp;quot;Journals&amp;quot;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.milkspace.xyz&#x2F;blog&#x2F;how-to-create-digital-garden&#x2F;.&#x2F;attachments&#x2F;Pasted%20image%2020220401125349.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;После снятия галочки появится пункт &amp;quot;Set the default home page&amp;quot;. В него нужно ввести имя страницы, которую ты создал на прошлом шаге. (В моём случае это &amp;quot;главная страница&amp;quot;.) Нажимаешь клавишу &amp;quot;Enter&amp;quot; для подтверждения и, если всё сделано правильно, вверху появится надпись &amp;quot;Home default page updated succesfully!&amp;quot;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.milkspace.xyz&#x2F;blog&#x2F;how-to-create-digital-garden&#x2F;.&#x2F;attachments&#x2F;Pasted%20image%2020220401130828.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;На этой же странице настроек необходимо поставить галочку  &amp;quot;All pages public when publishing&amp;quot;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.milkspace.xyz&#x2F;blog&#x2F;how-to-create-digital-garden&#x2F;.&#x2F;attachments&#x2F;Pasted%20image%2020220401135227.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;С настройками закончили. Осталось добавить контента.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.milkspace.xyz&#x2F;blog&#x2F;how-to-create-digital-garden&#x2F;.&#x2F;attachments&#x2F;Pasted%20image%2020220401161701.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;docs.logseq.com&#x2F;#&#x2F;page&#x2F;Contents&quot;&gt;Ссылка на помощь по logseq&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+Создай новую страницу. Например &amp;quot;тест&amp;quot;. Введи &amp;quot;[[&amp;quot; и начни вводить название одной из существующих страниц. Автоматически добавится &amp;quot;]]&amp;quot; в конце, так и должно быть. Всё нормально.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.milkspace.xyz&#x2F;blog&#x2F;how-to-create-digital-garden&#x2F;.&#x2F;attachments&#x2F;Pasted%20image%2020220401162116.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Выбери нужный вариант стрелочками и нажми &amp;quot;Enter&amp;quot; &lt;del&gt;можно ещё нажать мышкой, но Захар такого не одобрит&lt;&#x2F;del&gt;.&lt;br &#x2F;&gt;
+Страница создалась и теперь можно посмотреть &amp;quot;карту сайта&amp;quot;. Нажми кнопку &lt;code&gt;Graph view&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.milkspace.xyz&#x2F;blog&#x2F;how-to-create-digital-garden&#x2F;.&#x2F;attachments&#x2F;Pasted%20image%2020220401162404.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.milkspace.xyz&#x2F;blog&#x2F;how-to-create-digital-garden&#x2F;.&#x2F;attachments&#x2F;Pasted%20image%2020220401162432.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;publikatsiia-sada&quot;&gt;Публикация сада&lt;&#x2F;h1&gt;
+&lt;p&gt;Сад создан. Осталось его опубликовать. Приступим &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;eksport-grafa-v-sait&quot;&gt;Экспорт графа в сайт&lt;&#x2F;h2&gt;
+&lt;p&gt;Нажимаешь 3 точки вверху справа и выбираешь пункт &lt;code&gt;Export graph&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.milkspace.xyz&#x2F;blog&#x2F;how-to-create-digital-garden&#x2F;.&#x2F;attachments&#x2F;Pasted%20image%2020220401170943.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Выбираешь пункт &lt;code&gt;Export public pages&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.milkspace.xyz&#x2F;blog&#x2F;how-to-create-digital-garden&#x2F;.&#x2F;attachments&#x2F;Pasted%20image%2020220401171038.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Выбираешь пустую папку, в которую будет сохранён сайт
+Затем появится уведомление, что сайт экспортирован&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;zagruzka-na-github&quot;&gt;Загрузка на github&lt;&#x2F;h2&gt;
+&lt;p&gt;Для публикации необходим аккаунт на &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;&quot;&gt;github&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+Создаёшь новый открытый репозиторий (или приватный, если у тебя есть github pro) и загружаешь в него содержимое папки, в которой находится сайт (я не буду пояснять как это делать. ищи в интернете)&lt;br &#x2F;&gt;
+В итоге всё должно получиться как на картинке ниже. Затем заходишь в настройки репозитория.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.milkspace.xyz&#x2F;blog&#x2F;how-to-create-digital-garden&#x2F;.&#x2F;attachments&#x2F;Pasted%20image%2020220401171823.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Заходишь на вкладку &lt;code&gt;Pages&lt;&#x2F;code&gt;, выбираешь ветку, в которой лежит сайт и включаешь &lt;code&gt;HTTPS&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.milkspace.xyz&#x2F;blog&#x2F;how-to-create-digital-garden&#x2F;.&#x2F;attachments&#x2F;Pasted%20image%2020220401172055.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Если всё сделано правильно, появится надпись &lt;code&gt;Your site is published at https:&#x2F;&#x2F;НИКНЕЙМ_АККАУНТА.github.io&#x2F;НАЗВАНИЕ_РЕПОЗИТОРИЯ&#x2F;&lt;&#x2F;code&gt;
+Останется только подождать несколько минут пока сайт загрузится.
+Будут вопросы - пиши в комментарии&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Теперь с RSS</title>
+        <published>2022-03-18T00:00:00+00:00</published>
+        <updated>2022-10-03T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://www.milkspace.xyz/blog/now-with-rss/" type="text/html"/>
+        <id>https://www.milkspace.xyz/blog/now-with-rss/</id>
+        
+        <content type="html">&lt;p&gt;У сайта появилась поддержка RSS!&lt;&#x2F;p&gt;
+&lt;p&gt;Просто добавь адрес сайта в свою программу&#x2F; расширение для чтения RSS лент&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;https:&#x2F;&#x2F;milkspace.xyz&#x2F;atom.xml&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Тест</title>
+        <published>2022-03-17T00:00:00+00:00</published>
+        <updated>2022-03-31T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://www.milkspace.xyz/blog/test/" type="text/html"/>
+        <id>https://www.milkspace.xyz/blog/test/</id>
+        
+        <content type="html">&lt;p&gt;&lt;code&gt;1&lt;&#x2F;code&gt; + &lt;code&gt;2&lt;&#x2F;code&gt; = &lt;code&gt;3&lt;&#x2F;code&gt; | &lt;code&gt;print(42)&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;header-1&quot;&gt;header 1&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;header-2&quot;&gt;header 2&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;hrader-3&quot;&gt;hrader 3&lt;&#x2F;h3&gt;
+&lt;h2 id=&quot;header-2-1&quot;&gt;header 2&lt;&#x2F;h2&gt;
+&lt;h1 id=&quot;header-1-1&quot;&gt;header 1&lt;&#x2F;h1&gt;
+&lt;h1 id=&quot;header-1-2&quot;&gt;header 1&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;header-2-2&quot;&gt;header 2&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;header-2-3&quot;&gt;header 2&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;1&lt;&#x2F;li&gt;
+&lt;li&gt;2
+&lt;ul&gt;
+&lt;li&gt;3&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;code&gt;dasd&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;asdasd
+&lt;&#x2F;span&gt;&lt;span&gt;as
+&lt;&#x2F;span&gt;&lt;span&gt;d
+&lt;&#x2F;span&gt;&lt;span&gt;sd
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;em&gt;111&lt;&#x2F;em&gt; &lt;strong&gt;222&lt;&#x2F;strong&gt; &lt;em&gt;&lt;strong&gt;333&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; &lt;del&gt;nope&lt;&#x2F;del&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Blockquote&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;asdasds
+asdasdasdas&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;asdasdsa
+asdas&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;| asdasd&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;name&lt;&#x2F;th&gt;&lt;th&gt;usage&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;My Name&lt;&#x2F;td&gt;&lt;td&gt;For Me&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Your Name&lt;&#x2F;td&gt;&lt;td&gt;For You&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;hr &#x2F;&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Header&lt;&#x2F;th&gt;&lt;th&gt;Another Header&lt;&#x2F;th&gt;&lt;th&gt;Yet Another Header&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Value 11&lt;&#x2F;td&gt;&lt;td&gt;Value 12&lt;&#x2F;td&gt;&lt;td&gt;Value 13&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Value 21&lt;&#x2F;td&gt;&lt;td&gt;Value 22&lt;&#x2F;td&gt;&lt;td&gt;Value 23&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Value 31&lt;&#x2F;td&gt;&lt;td&gt;Value 32&lt;&#x2F;td&gt;&lt;td&gt;Value 33&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;br&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;name&lt;&#x2F;th&gt;&lt;th&gt;usage&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;My Name&lt;&#x2F;td&gt;&lt;td&gt;For Me&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Your Name&lt;&#x2F;td&gt;&lt;td&gt;For You&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;typemill.net&#x2F;media&#x2F;markdown.png&quot; alt=&quot;alt-text&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;www.w3schools.com&#x2F;html&#x2F;img_girl.jpg&quot; alt=&quot;Italian Trulli&quot; style=&quot;height:200px&quot;&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;www.w3schools.com&#x2F;html&#x2F;img_girl.jpg&quot; alt=&quot;Girl in a jacket&quot; style=&quot;width:200px&quot;&gt; 
+&lt;p&gt;code:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;scss&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-scss &quot;&gt;&lt;code class=&quot;language-scss&quot; data-lang=&quot;scss&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;body &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;  background-color: $&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;nord0&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;  color: $&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;nord8&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;  font: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;100% &lt;&#x2F;span&gt;&lt;span&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;font-stack&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;  max-width: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;50rem&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;  border-style: dashed;
+&lt;&#x2F;span&gt;&lt;span&gt;  border-color: $&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;nord1&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;  padding: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0.3rem&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;  margin: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;0 &lt;&#x2F;span&gt;&lt;span&gt;auto;
+&lt;&#x2F;span&gt;&lt;span&gt;  overflow-wrap: break-word;
+&lt;&#x2F;span&gt;&lt;span&gt;  padding-bottom: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;1rem&lt;&#x2F;span&gt;&lt;span&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;python&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;42&lt;&#x2F;span&gt;&lt;span&gt;)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;code&gt;print(42)&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Write the press release&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Update the website&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Contact the media&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Первый пост</title>
+        <published>2022-03-16T00:00:00+00:00</published>
+        <updated>2022-03-31T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://www.milkspace.xyz/blog/first-post/" type="text/html"/>
+        <id>https://www.milkspace.xyz/blog/first-post/</id>
+        
+        <content type="html">&lt;p&gt;Привет&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
